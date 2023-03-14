@@ -224,7 +224,7 @@ class ComethManager {
     }
 
   async deleteCometh() {
-      const url = 'https://challenge.crossmint.io/api/soloons';
+      const url = 'https://challenge.crossmint.io/api/comeths';
       const candidateId = '96e1131c-9ad0-441d-be00-cf9fc2515361';
     
       // Determine the size of the matrix
