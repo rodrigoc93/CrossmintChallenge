@@ -281,8 +281,7 @@ async function markLogo() {
 
   // Delay between requests (in milliseconds), to avoid error 429
   const delay = 750;
-  
-  // Mark the top-left to bottom-right diagonal
+
   for (let i = 0; i < size; i++) {
     for (let j = 0; j < size; j++) {
       if (matrix.goal[i][j] === 'POLYANET')
